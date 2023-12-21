@@ -159,7 +159,7 @@ export default function Header(props) {
             <Link to="/" onClick={() => setShow(false)}>
               <img
                 className=""
-                src="/logo2_png.png"
+                src="/logo2.png"
                 alt=""
                 width="45"
                 height="45"
@@ -181,7 +181,7 @@ export default function Header(props) {
               </svg>
             ) : (
               <svg
-                onClick={() => setShow(!show)}
+                // onClick={() => setShow(!show)}
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
                 height="36"
@@ -288,7 +288,7 @@ export default function Header(props) {
                 <div className="col-12">
                   <p className="footer-staking-logo mb-2">
                     <div className="d-flex justify-content-between">
-                      <span>arbiex.io</span>
+                      <span>gruu-drc20.org/</span>
                       <div>
                         <a href="https://twitter.com/arbi_ex">
                           <svg
@@ -332,7 +332,7 @@ export default function Header(props) {
                 </div>
                 <div className="col-12">
                   <p className="coppyright mt-1" style={{ fontSize: "14px" }}>
-                    © Copyright 2023 Arbiex | All Rights Reserved
+                    © Copyright 2023 gruu-drc20.org | All Rights Reserved
                   </p>
                 </div>
               </div>

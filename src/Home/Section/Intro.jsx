@@ -23,7 +23,7 @@ export default function Intro() {
             </p>
             <a
               className="btn btn-connect in_content-btn flex justify-center px-5 py-3 rounded-pill actived ms-3"
-              href="https://www.pinksale.finance/launchpad/0x9072270fBe37aeC43e5E99DB8da6C288Ced5d9E3?chain=Arbitrum"
+              href="https://doggy.market/gruu"
               target="_blank"
             >
               Buy TOKEN

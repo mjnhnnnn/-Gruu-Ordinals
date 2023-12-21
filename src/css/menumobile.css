@@ -20,6 +20,21 @@
 }
 .mb-logo {
   object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .intro {
+    min-height: 430px;
+  }
+  .intro-icon-1 {
+    bottom: 0 !important;
+    right: 0 !important;
+  }
+  .intro-icon-2 {
+    top: 0 !important;
+    right: 0 !important;
+  }
 }
 .mb-icon {
   color: rgb(229, 231, 235, 1);
