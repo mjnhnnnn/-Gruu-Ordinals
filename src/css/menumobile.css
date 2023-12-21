@@ -19,9 +19,17 @@
   height: 100%;
 }
 .mb-logo {
+  /* object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden; */
+  display: flex;
+  gap: 9px;
+}
+.mb-logo a {
   object-fit: cover;
   border-radius: 50%;
   overflow: hidden;
+  display: flex;
 }
 @media (max-width: 768px) {
   .intro {

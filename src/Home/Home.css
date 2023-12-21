@@ -46,7 +46,13 @@
   background-color: rgb(15 22 36) !important;
   position: relative;
 }
-
+.h2custom {
+  color: #ff1313;
+  background: unset !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  line-height: 1.5 !important;
+}
 .intro-icon-1 {
   position: absolute;
   bottom: 30px;

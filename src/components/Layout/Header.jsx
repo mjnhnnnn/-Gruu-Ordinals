@@ -159,6 +159,15 @@ export default function Header(props) {
             <Link to="/" onClick={() => setShow(false)}>
               <img
                 className=""
+                src="/logo3.png"
+                alt=""
+                width="45"
+                height="45"
+              />
+            </Link>
+            <Link to="/" onClick={() => setShow(false)}>
+              <img
+                className=""
                 src="/logo2.png"
                 alt=""
                 width="45"
@@ -344,6 +353,19 @@ export default function Header(props) {
       <header className={`p-3 fixed-top-ok`}>
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <Link
+              to="/"
+              className="d-flex align-items-center  mb-2 mb-lg-0 text-white text-decoration-none header_logo_link"
+            >
+              <img
+                style={{ marginRight: "9px" }}
+                className="header_logo"
+                src="/logo3.png"
+                alt=""
+                width="90"
+                height="90"
+              />
+            </Link>
             <Link
               to="/"
               className="d-flex align-items-center  mb-2 mb-lg-0 text-white text-decoration-none header_logo_link"

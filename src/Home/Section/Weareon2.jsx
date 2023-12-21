@@ -21,7 +21,6 @@ export default function Weareon2() {
           has captured the hearts of millions, and Gruu seeks to translate that
           charm into the cryptocurrency realm.
         </p>
-
         <h2 className="in_content-name " style={{ marginTop: "45px" }}>
           Technology and Security:
         </h2>
@@ -31,6 +30,16 @@ export default function Weareon2() {
           compatibility with various decentralized applications, creating
           opportunities for future integrations and partnerships.
         </p>
+        <h2
+          className="in_content-name h2custom"
+          style={{
+            marginTop: "45px",
+            textAlign: "center",
+            fontSize: "24px",
+          }}
+        >
+          More information will be update later. Stay tune!
+        </h2>
       </div>
     </>
   );
