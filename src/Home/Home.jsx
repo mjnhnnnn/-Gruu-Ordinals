@@ -13,6 +13,7 @@ import {
   OurPartners,
   JoinOut,
   Weareon,
+  Weareon2,
 } from "./Section";
 
 export default function Home() {
@@ -26,7 +27,14 @@ export default function Home() {
       >
         <Intro />
       </section>
-
+      <section
+        className="py-5 weareon2"
+        style={{
+          backgroundImage: `url("	https://cartoonito.cartoonnetworkasia.com/assets/img/module/bkg-dots.png")`,
+        }}
+      >
+        <Weareon2 />
+      </section>
       <section
         className="py-5 weareon"
         style={{

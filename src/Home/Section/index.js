@@ -10,6 +10,7 @@ import SupportMore from "./SupportMore";
 import OurPartners from "./OurPartners";
 import JoinOut from "./JoinOut";
 import Weareon from "./Weareon";
+import Weareon2 from "./Weareon2";
 
 export {
   Intro,
@@ -24,4 +25,5 @@ export {
   OurPartners,
   JoinOut,
   Weareon,
+  Weareon2,
 };

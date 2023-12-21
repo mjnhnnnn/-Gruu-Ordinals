@@ -8,18 +8,19 @@ export default function Intro() {
         <div className="row g-4 row-cols-1 row-cols-lg-2">
           <div className="in_content col-sm-12 col-lg-8 ">
             <h1 className="in_content-name ">
-              Introding Meme Token{" "}
+              About us{" "}
               <img
                 src="	https://cartoonito.cartoonnetworkasia.com/assets/img/module/header/spacer.png"
                 alt=""
               />
             </h1>
             <p className="in_content-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque voluptate illum, delectus aliquid eveniet possimus
-              suscipit reiciendis qui. Aliquam nam pariatur blanditiis
-              consectetur nulla eveniet facilis asperiores ipsum perspiciatis
-              cupiditate.
+              The meme coin inspired by the iconic character "Gru" from the
+              beloved Minion series. Gruu operates on the DRC20 protocol, with a
+              total supply of 1 billion tokens. This whitepaper outlines the
+              unique features, tokenomics, and vision behind Gruu as it sets out
+              to create a fun and engaging community within the cryptocurrency
+              space.
             </p>
             <a
               className="btn btn-connect in_content-btn flex justify-center px-5 py-3 rounded-pill actived ms-3"
@@ -28,6 +29,18 @@ export default function Intro() {
             >
               Buy TOKEN
             </a>
+          </div>
+          <div className="col-sm-12 col-lg-4 ">
+            <img
+              className="in_content-img"
+              style={{
+                maxWidth: "100%",
+                borderRadius: "20px",
+                marginTop: "106px",
+              }}
+              src="https://scontent.fhan14-1.fna.fbcdn.net/v/t1.15752-9/406801182_659571563005753_40225189794519861_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGYOvJZZfFQIgEeR9XoSSt9sEAhHtg3deiwQCEe2Dd16P9f0tX213ySbs9U57o6fdBvNsXZfkGzyXgtg-cmLPGB&_nc_ohc=3dMeydNkBvIAX86p_JH&_nc_oc=AQm37umfE-yNEzr_tr1c0j9ME-pRS99q6-dE-JTVHFEBTu8a1W7ngLRtzGRmkcdKLQKptyqsyfXwTxXeLjbAGoWB&_nc_ht=scontent.fhan14-1.fna&oh=03_AdTGnsVLnJHv8pQn4KAIdvgyvISb_eG9n2jkeqUDnGMUmw&oe=65ABB959"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -41,65 +54,16 @@ export default function Intro() {
         src="https://cartoonito.cartoonnetworkasia.com/assets/img/module/about/bkg-right-top.png"
         alt=""
       />
-      {/* <div className="container">
-        <div className="row g-4 row-cols-1 row-cols-lg-2">
-          <div className="in_content col-sm-12 col-lg-7 " data-aos="fadeIn ">
-            <h1 className="in_content-name ">The ultimate defi platform</h1>
-            <p className="in_content-desc">
-              Arbiex is a new project on the Arbitrum ecosystem, designed to
-              provide users with the best trading experience and advanced
-              project development solutions. With the main functions of swap,
-              launchpad, and support for minting tokens, Arbiex is a
-              full-featured and versatile platform for the blockchain community.
-            </p>
-            <a
-              className="btn btn-connect in_content-btn flex justify-center px-5 py-3 rounded-pill actived"
-              href="https://docs.arbiex.io/about-us/whats-arbiex"
-              target="_blank"
-            >
-              Docs
-            </a>
-            <a
-              className="btn btn-connect in_content-btn flex justify-center px-5 py-3 rounded-pill ms-3 actived"
-              href="https://www.pinksale.finance/launchpad/0x9072270fBe37aeC43e5E99DB8da6C288Ced5d9E3?chain=Arbitrum"
-              target="_blank"
-            >
-              Our presale
-            </a>
-            <div className="in_content-footer">
-              Built on
-              <img src="/build_on.png" alt="" />
-            </div>
-          </div>
-          <div className="in_img-vid col-sm-12 col-lg-5 ">
-            <div>
-              <img
-                src="/khung_logo.png"
-                alt=""
-                className="in_img-vid--khunglogo"
-              />
-              <img
-                src="/khung_traidat.png"
-                alt=""
-                className="in_img-vid--khungtraidat"
-              />
-              <div className="waviy">
-                <span style={{ "--i": 1 }}>a</span>
-                <span style={{ "--i": 2 }}>r</span>
-                <span style={{ "--i": 3 }}>b</span>
-                <span style={{ "--i": 4 }}>i</span>
-                <span style={{ "--i": 5 }}>e</span>
-                <span style={{ "--i": 6 }}>x</span>
-                <span style={{ "--i": 7 }}>.</span>
-                <span style={{ "--i": 8 }}>i</span>
-                <span style={{ "--i": 9 }}>o</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <div className="gradient-intro"></div> */}
-      {/* <div className="gradient-intro02"></div> */}
+      <img
+        className="intro-icon-3"
+        src="https://cartoonito.cartoonnetworkasia.com/assets/img/module/about/bkg-right-top.png"
+        alt=""
+      />
+      <img
+        className="intro-icon-4"
+        src="https://cartoonito.cartoonnetworkasia.com/assets/img/module/about/bkg-right-top.png"
+        alt=""
+      />
     </>
   );
 }
