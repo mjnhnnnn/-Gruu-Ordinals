@@ -1,0 +1,16 @@
+.text-header {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 36px;
+  /* line-height: 72px; */
+  /* margin-bottom: 25px; */
+  text-transform: capitalize;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  margin-left: 15px;
+}

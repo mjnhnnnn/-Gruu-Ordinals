@@ -1,0 +1,44 @@
+.comingsoon {
+  color: #fff;
+  text-align: center;
+  line-height: 1;
+}
+.c-title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.c-desc {
+  font-size: 1.2rem;
+  width: 32%;
+  margin: 0 auto 25px;
+  line-height: 1.5;
+}
+.c-subcribe input,
+.c-subcribe button {
+  padding: 10px 15px;
+  outline: none;
+  border: 0;
+  margin: 0 5px;
+  line-height: 1.5;
+}
+
+.c-subcribe input::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+.c-subcribe button {
+  background-color: rgb(67 67 125 / 1);
+  color: rgb(241 245 249 / 1);
+}
+.c-subcribe button:hover {
+  background: linear-gradient(to right, #3f358e, #683188, #714b7d);
+}
+@media (max-width: 768px) {
+  .c-title {
+    font-size: 30px;
+  }
+  .c-desc {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.MintingToken {
+  padding: 40px;
+  background-color: #fff;
+}
+.valid .form-control {
+  border-color: #dc3545;
+}
+.valid .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+small.text-muted {
+  display: none;
+}
+.valid small.text-muted {
+  color: #dc3545 !important;
+  display: block;
+}

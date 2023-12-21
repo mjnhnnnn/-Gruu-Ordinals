@@ -1,0 +1,26 @@
+.Lottery-card {
+  border-radius: 30px;
+  min-height: 250px;
+  background-color: rgb(16, 25, 78);
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+.Lottery-card .head {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Lottery-card .body {
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+@media (max-width: 769px) {
+  .Lottery-card {
+    max-width: 100%;
+  }
+  .Lottery-card .body {
+    font-size: 40px;
+  }
+}

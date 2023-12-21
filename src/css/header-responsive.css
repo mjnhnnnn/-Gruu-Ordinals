@@ -1,0 +1,11 @@
+@media (max-width: 1024px){
+    header{
+        display: none;
+    }
+        .menu-mobile{
+            display: block;
+        }
+        body{
+            padding-top: 70px;
+        }
+}

@@ -1,0 +1,166 @@
+body {
+  background: #02042a !important;
+}
+.tblwrap {
+  border-radius: 20px;
+  background-color: rgb(35, 38, 47, 1);
+  color: #fff;
+}
+.tblwrap-section {
+  padding: 30px;
+  border-bottom: 1px solid rgb(63, 69, 83, 1);
+}
+.tblwrap-section:last-child {
+  border-bottom: unset;
+}
+
+.tbl-img-name {
+  display: flex;
+  gap: 18px;
+}
+.tbl-img-name .name {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.tbl-img-name .desc {
+  color: rgb(119, 126, 144, 1);
+}
+.tbl-img.important {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.tbl-img--clone {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  position: absolute;
+  right: -8px;
+  bottom: -7px;
+}
+@media (max-width: 1200px) {
+  .margin-no-xl {
+    margin-bottom: 20px;
+  }
+  .tbl-img-name .name {
+    margin-bottom: 7px;
+    line-height: 1;
+    font-size: 18px;
+  }
+}
+.tbl-content p {
+  color: #777e90;
+  margin-bottom: 5px;
+}
+.text-green {
+  color: #5eba89;
+}
+.tbl-content span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.tbl-content small {
+  font-size: 12px;
+  display: block;
+  color: #9ca3af;
+}
+.btn-details {
+  color: #777e90;
+  cursor: pointer;
+}
+.btn-details:hover {
+  color: #fff;
+}
+.btn-details svg {
+  margin-left: 3px;
+}
+
+.details {
+  background-color: rgb(26 28 32 / 1);
+  padding: 20px;
+  border-radius: 20px;
+  /* animation: openSmooth linear 1s; */
+}
+
+.details-wrap-effect {
+  max-height: 0;
+  overflow: hidden;
+  /* -webkit-transition: max-height linear .3s;
+    -moz-transition: max-height linear .3s;
+    -ms-transition: max-height linear .3s;
+    -o-transition: max-height linear .3s;
+    transition: max-height linear .3s; */
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  transition-property: all;
+}
+.details-wrap-effect.open {
+  max-height: 400px;
+}
+.details-wrap .left p {
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+.details-wrap .left p span:first-child {
+  color: #9ca3af;
+  margin-right: 30px;
+}
+.details-wrap .left p span small {
+  font-size: 12px;
+  color: #9ca3af;
+}
+.left button {
+  background-color: transparent;
+  margin: 5px 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 0;
+  border: 1px solid rgb(67, 67, 125, 1);
+}
+.left button:hover {
+  background-color: rgb(67, 67, 125, 1);
+}
+.right {
+  width: 250px;
+}
+.start-staking {
+  border: 1px solid rgb(35, 38, 47, 1);
+  border-radius: 12px;
+  padding: 15px 10px;
+}
+.start-staking p {
+  font-size: 15px;
+}
+.start-staking button {
+  font-size: 14px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgb(67 67 125 / 1);
+  color: rgb(241 245 249 / 1);
+  border: 1px solid rgb(67 67 125 / 1);
+}
+.start-staking button:hover {
+  background: linear-gradient(to right, #3f358e, #683188, #714b7d);
+}
+@media (max-width: 1200px) {
+  .details-wrap .left,
+  .details-wrap .right {
+    width: 100%;
+  }
+  .details-wrap .right {
+    margin-bottom: 15px;
+  }
+}
+.coppyright {
+  color: #cbd5e1;
+}
+.footer-staking-logo a {
+  color: #fff;
+  margin: 0 5px;
+}
+.footer-staking-logo a:first-child {
+  margin-left: 20px;
+}
